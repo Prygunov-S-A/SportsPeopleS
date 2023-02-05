@@ -1,0 +1,39 @@
+.navigator{
+    margin-right: 80px;
+}
+
+.zagolovok{
+    margin-top: 20px;
+}
+
+.part-catalog{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+@media(max-width: 768px){
+    .pre-main{
+        width: 100%;
+    }
+}    
+
+@media(max-width:425px){
+    .navigator{
+        margin-right: 20px;
+    }
+    .card h5{
+        font-size: 27px;
+    }
+}
+
+@media(max-width:320px){
+    .navigator{
+        margin-right: 20px;
+    }
+    .card h5{
+        font-size: 27px;
+    }
+}

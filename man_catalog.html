@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportPeople</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/man_catalog.css">
+</head>
+<body>
+    <header class="start-container">
+        <div class="startbar">
+            <div class="start-logo">
+                <img src="assets/icons8-sport-64.png" alt="Лототип магазина">
+            </div>
+            <div class="name">
+              <h2>SportPeople</h2>
+            </div>
+            <div class="navigator">
+                <a href="index.html" class="a">Главная</a>
+                <a href="about_us.html" class="a">О нас</a>
+            </div>
+            <div class="busket">
+                <a href="busket.html"><img src="assets/basket.png" alt="Корзина"></a>
+            </div>
+            <div class="login">
+              <button type="submit" class="btn-1" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Войти
+              </button>
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Войдите в Ваш аккаунт</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Электронная почта</p><input type="email" placeholder="example@pochta.com" id="email">
+                      <p>Пароль</p><input type="password" placeholder="Введите пароль" id="password">
+                    </div>
+                    <div class="modal-footer">
+                      <a href="registation_page.html"><button type="button" class="btn btn-info" data-bs-dismiss="modal">Зарегистрироваться</button></a>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Войти</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pre-main">
+            <div class="zagolovok">
+              <h2>Мужской каталог</h2>
+            </div>
+              <div class="cards">
+                <div class="card">
+                    <img src="assets/sneakers1.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Кроссовки Ads</h5>
+                        <p>2499₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Ваш товар добавлен в корзину</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Вы успешно добавили выбранный товар в корзину
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                  <a href="https://my.mshp.ru/pupil/root/main"><button type="button" class="btn btn-primary">Перейти в корзину</button></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="assets/sneakers.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Кроссовки NB</h5>
+                        <p>2999₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/sneakers2.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Кроссовки Nke</h5>
+                        <p>4799₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/costume1.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Костюм Ads</h5>
+                        <p>3799₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/costume2.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Костюм Nke</h5>
+                        <p>3499₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/costume3.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Костюм RS</h5>
+                        <p>4199₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/jacket.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Куртка зимняя MB</h5>
+                        <p>4799₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/jacket1.jpg" alt="">
+                    <div class="card-footer1">
+                        <h5>Куртка зимняя VF</h5>
+                        <p>4799₽</p>
+                        <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            В корзину
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer">
+          <div class="contact-and-adresses">
+            <h3>Г.Москва, ул.Пронорова, д.145</h3>
+            <h3>+7(900)564-10-01</h3>
+          </div>
+          <div class="soc-icons">
+            <a href="#"><img src="assets/vk.png" alt="" class="footer-logs vk"></a>
+            <a href="#"><img src="assets/telegram.png" alt="" class="footer-logs tg"></a>
+            <a href="#"><img src="assets/instagram.png" alt="" class="footer-logs inst"></a>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

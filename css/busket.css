@@ -1,0 +1,22 @@
+.navigator{
+    margin-left: 100px;
+}
+
+.busket-m{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+.form-check{
+    margin: 10px;
+}
